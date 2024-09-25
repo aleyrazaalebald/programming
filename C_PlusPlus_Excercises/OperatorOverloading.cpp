@@ -7,7 +7,7 @@ boolean operators, unary operators
 comparison operators
 compound operators,
 function call operators
-subscript operators
+subscript operators.
 
 Author: ALEY RAZA ZAIDI
 Date: 25.09.2024
