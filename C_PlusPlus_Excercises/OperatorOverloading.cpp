@@ -44,9 +44,9 @@ public:
 		return *this;
 	}
 
-	// && Overloading
+	// == Overloading
 	bool operator==(MyClass obj) {
-		std::cout << " && overloading is called" << '\n';
+		std::cout << " == overloading is called" << '\n';
 		return (x == obj.x) && (d == obj.d);
 	}
 };
