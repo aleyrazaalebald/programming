@@ -8,6 +8,9 @@ namespace CAL
 	class Calculator
 	{
 	public:
+		Calculator() {} // default ctor
+		~Calculator() {} // destructor
+
 		int add(int, int);
 		int subtract(int, int);
 		int multiply(int, int);
