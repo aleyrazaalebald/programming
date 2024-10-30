@@ -39,21 +39,20 @@ template <typename T> void Array<T>::print()
 
 int main()
 {
+	//defining integer Array
 	int arr[5] = {0, 1, 2, 3, 4};
 	Array<int> a(arr, 5);
 	a.print();
 
-
+	//defining std::string Array
 	std::string arr2[2] = { "Aley", "Raza"};
 	Array<std::string> a2(arr2, 2);
 	a2.print();
 
-
+	//defining char Array
 	char arr3[3] = { 'A', 'R' , 'Z'};
 	Array<char> a3(arr3, 3);
 	a3.print();
-
-
 
 	return 0;
 }
